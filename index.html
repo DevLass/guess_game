@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Any</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--
+        O que eu ainda quero fazer?
+        -Melhorar a frase de ganhou
+        -Pt/en
+        -Regras
+        -Dois botoes por vez
+        -Linkedin e github
+    -->
+    <div class="social_icons">
+        <ul>
+            <li onclick="active_popup()" id="rules_text">Rules</li>
+            <li id="btn_lang" >En/Br</li>
+            <li>
+                <a href="https://github.com/italicnich" target="_blank" rel="external">
+                    <i data-feather="github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/nicollas-venancio/" target="_blank" rel="external">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p class="page_title" id="congrats">I'm thinking of a number from 1 to 100...</p>
+    <main>
+        <div class="container">
+            <p class="text title_text" id="first_title_text">Do some operations!</p>
+            <button class="text simple_button" id="btn_div">Divisible by</button>
+            <input class="text" type="text" id="input_div"> 
+            <br>
+            <button class="text simple_button" id="btn_bigger" >Bigger then</button>
+            <input class="text" type="text" id="input_bigger"> 
+            <br>
+            <button class="text simple_button" id="btn_lesser">Lesser then</button>
+            <input class="text" type="text" id="input_lesser"> 
+            <br>
+            <!--
+            <p id="op_number" class="text"></p>
+            -->
+            <p class="text title_text" id="second_title_text">And try to guess!</p>
+            <input class="text" type="text" id="userinput"> <br>
+            <button class="text simple_button" id="btn">Send</button>
+        </div> 
+
+    </main>
+
+    <div class="popup-wrapper">
+        <div class="popup" >
+            <div class="popup-close" onclick="close_popup()">x</div>
+            <div class="popup-content">
+                <h3 id="rule_popout_title">Rules</h3> <br>
+                <p id="rules_1">-You have to guess the number (1-100)</p>
+                <p id="rules_2">-You can use each operation only twice</p>
+                <p id="rules_3">-Green means true, red false</p> <br>
+                <p id="rules_4">Good Lucky!!</p>
+                <button id="pop-button" onclick="close_popup(), location.reload()">Ok!!</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+    feather.replace()
+</script>
+<script src="script.js"></script>
+</html>
