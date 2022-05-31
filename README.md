@@ -11,7 +11,19 @@ Its rules are: You can check if the number is divisible, greater than or less th
 <p align="center">
     <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/rules.png" alt="Page Preview">
 </p>
-<h3 align="justify"><i>I would like to implement a bookmark button and maybe a like button in the future, but honestly I have no idea how to do that. So this update should take a little longer.</i></h3>
+<h3 align="justify"><i>This is exactly the same technique used to make popups in my <a href="https://github.com/italicnich/jump-game"> jump-game </a></i></h3>
+<h3 align="justify"><i>Another relevant point was the "no-google/youtube" challenge, So on the technical side, this was perhaps the most challenging project.</i></h3>
+<p align="center">
+    <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/win.png" alt="Page Preview">
+</p>
+<h3 align="justify"><i>Perhaps the most interesting function is the language switch, where I use an increment (+1) along with a check if it's odd or even (%2) to switch between languages.</i></h3>
+<p align="center">
+    <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/lang-f.png" alt="Page Preview" width="500">
+</p>
+<h3 align="justify"><i>Almost everything else was done with removing and adding classes.</i></h3>
+<p align="center">
+    <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/class-f.png" alt="Page Preview" width="500">
+</p>
 <h3 align="justify">
 Thanks for reading, see you soon
 </h3>
