@@ -174,7 +174,6 @@ button_var.addEventListener('click', function(e){
 
 // Make a lucky test someday 
 
-const button = document.querySelector('#stopwatch_button')
 const popup = document.querySelector('.popup-wrapper')
 const close_button = document.querySelector('.popup-close')
 
