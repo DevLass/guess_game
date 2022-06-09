@@ -20,7 +20,7 @@
 <p align="center">
     <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/lang-f.png" alt="Page Preview" width="500">
 </p>
-<h3 align="justify"><i>Almost everything else was done with removing and adding classes.</i></h3>
+<h3 align="justify"><i>Almost everything else was done by removing and adding classes.</i></h3>
 <p align="center">
     <img src="https://github.com/italicnich/guess_game/blob/main/readmeimg/class-f.png" alt="Page Preview" width="500">
 </p>
